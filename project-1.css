@@ -1,0 +1,68 @@
+body {
+    font-family: "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.row {
+  margin: 0px;
+  padding:0px;
+}
+
+.title {
+  font-weight: revert;
+  color:#1E5558;
+  font-size: larger;
+  margin-top: 115px!important;
+  font-size: 86px!important;
+}
+.title-1 p::before {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 50px;
+  background-color:  #184c72;;
+  left: -20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  
+}
+.para {
+  text-align: justify;
+}
+
+
+
+.maintxt {
+  background-image: url("src/11.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
+  height: 800px;
+  color: #ffff;
+}
+
+
+
+/* footer */
+footer .brand{
+  font-family: var(--lg-font);
+  letter-spacing: 2px;
+}
+footer a{
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+footer a:hover{
+  color: var(--pink)!important;
+}
+.bgc {
+  background-color: #0E3133;
+}
+
+.bottom-line {
+  margin: 0px 45px;
+  opacity: 20%;
+  color: #e0e0e0;
+}
